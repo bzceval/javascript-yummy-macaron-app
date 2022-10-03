@@ -43,3 +43,9 @@
     line-height: 2rem;
     font-size: 1rem;
 }
+.gift {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
