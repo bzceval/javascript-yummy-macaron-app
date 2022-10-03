@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*navbar*/
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+}
 .hero { 
     background-image: url("./images/bg.jpg");
     height: 100vh;
@@ -23,7 +27,7 @@
 }
 .macaron-yummy .order {
     border: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: .7rem 3rem;
     border-radius: 2rem;
     background-color: #ec348c;
@@ -32,12 +36,10 @@
     box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.3);
 }
 .macaron-yummy h1 {
-    color: antiquewhite;
+    color: aliceblue;
 }
 .macaron-yummy p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 2rem;
     font-size: 1rem;
-    padding-left: 70px;
-    padding-right: 70px;
 }
