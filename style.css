@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+}
+.hero { 
+    background-image: url("./images/bg.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.hero-container {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100vh;
+}
+.macaron-yummy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+}
+.macaron-yummy .order {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    padding: .7rem 3rem;
+    border-radius: 2rem;
+    background-color: #ec348c;
+    color: aliceblue;
+    font-weight: 600;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.macaron-yummy h1 {
+    color: aliceblue;
+}
+.macaron-yummy p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 2rem;
+    font-size: 1rem;
+}
