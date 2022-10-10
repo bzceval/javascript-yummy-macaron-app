@@ -5,14 +5,14 @@
 }
 /*navbar*/
 .nav-link {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
 }
-.hero { 
+.hero {
     background-image: url("./images/bg.jpg");
     height: 100vh;
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 .hero-container {
     background-color: rgba(0, 0, 0, 0.1);
@@ -27,8 +27,8 @@
 }
 .order {
     border: none;
-    font-family: 'Poppins', sans-serif;
-    padding: .7rem 3rem;
+    font-family: "Poppins", sans-serif;
+    padding: 0.7rem 3rem;
     border-radius: 2rem;
     background-color: #ec348c;
     color: aliceblue;
@@ -39,20 +39,20 @@
     color: aliceblue;
 }
 .macaron-yummy p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 2rem;
     font-size: 1rem;
-} 
+}
 .gift-description {
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .gift-description h2 {
-    line-height: 3rem; 
+    line-height: 3rem;
 }
 .gift-description p {
     line-height: 2rem;
@@ -67,7 +67,7 @@
     height: 100vh;
     background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 .work-yummy {
@@ -78,24 +78,35 @@
 }
 .work-yummy h3 {
     font-size: 40px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     color: rgba(0, 0, 0, 0.8);
     margin-bottom: 30px;
 }
 .work-yummy p {
     font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: rgba(0, 0, 0, 0.6);
     font-weight: 500;
 }
-.yummy-btn {
-    border: none;
-    font-family: 'Poppins', sans-serif;
-    width: 20%;
-    padding: .7rem 3rem;
-    border-radius: 2rem;
-    background-color: #ec348c;
-    color: aliceblue;
-    font-weight: 600;
-    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.3);
+.btn-success {
+    width: 50%; 
+    background-color: #ec348c !important;
+    border: none !important; 
+    font-family: "Poppins", sans-serif;
 }
+.main-footer {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8rem;
+}
+.main-footer h5 {
+    font-weight: bolder;
+    font-size: 23px;
+    color: #ec348c;
+}
+.main-footer span {
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #ec348c !important;
+    border: none !important;
+} 
