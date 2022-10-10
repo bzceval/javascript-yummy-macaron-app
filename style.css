@@ -62,3 +62,39 @@
 .macarons {
     background-color: #e7e5d5;
 }
+.work-bg {
+    background-image: url("./images/work-bg.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.work-yummy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+.work-yummy h3 {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 30px;
+}
+.work-yummy p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+.yummy-btn {
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    width: 20%;
+    padding: .7rem 3rem;
+    border-radius: 2rem;
+    background-color: #ec348c;
+    color: aliceblue;
+    font-weight: 600;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.3);
+}
