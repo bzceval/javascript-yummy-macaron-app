@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /*navbar*/
 .nav-link {
   font-family: "Oswald", sans-serif;
@@ -18,10 +19,70 @@
   background-color: rgba(0, 0, 0, 0.1);
   height: 100vh;
 }
+.macaron h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.macaron p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9rem;
+  line-height: 1.5rem;
+}
+.macaron .product-price {
+  color: #ec348c;
+  font-size: 1.2rem;
+}
+.macaron .product-price strong::before {
+  content: "$";
+}
+.macaron .line-through {
+  text-decoration: line-through;
+  font-size: 0.7rem;
+}
+.macaron .line-through::before {
+  content: "$";
+} 
+.macaron .product-line-price::before {
+  content: "$";
+} 
+.macaron .quantity-controller p {
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+} 
+.macaron .quantity-btn {
+  background-color: #e7e5d5;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.514);
+  border: none;
+  padding: 3px 5px;
+  border-radius: 2px;  
+}
+.macaron .remove-product {
+  background-color: #ec348c;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+  color: #e7e5d5; 
+  font-weight: 600;
+  transition: all 1s;
+  transform: scale(1) translateX(-5px);
+}
+.macaron .remove-product:hover {
+  transform: scale(1) translateX(5px);
+  transition: all 1s;
+}
 
+.macaron img {  
+  transition: all 1.5s;
+}
+.macaron img:hover {
+  transform: scale(1.1) translateY(5px);
+  transition: all 1.5s;
+} 
 /*******************/
 
-.macorons {
+.macorons-container {
   display: flex;
   flex-wrap: wrap;
   margin: 1rem;
@@ -29,8 +90,8 @@
 
 .card {
   text-align: center;
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
   position: relative;
   overflow: hidden;
   max-width: 300px;
@@ -43,21 +104,21 @@
 
 .card img {
   /* position: absolute; */
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
   top: 0;
   left: 0;
   transition: all 0.8s;
 }
 
 .card:hover img {
-  transform: scale(1.3) translateY(40px);
+  transform: scale(1.3) translateY(20px);
 }
 
 .text {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
   font-size: 1.3rem;
   display: flex;
   flex-direction: column;
@@ -111,7 +172,7 @@
 }
 .order {
   border: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 0.7rem 3rem;
   border-radius: 2rem;
   background-color: #ec348c;
@@ -123,7 +184,7 @@
   color: aliceblue;
 }
 .macaron-yummy p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 2rem;
   font-size: 1rem;
 }
@@ -133,7 +194,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .gift-description h2 {
   line-height: 3rem;
@@ -169,7 +230,7 @@
 }
 .work-yummy p {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 500;
 }
@@ -177,10 +238,10 @@
   width: 50%;
   background-color: #ec348c !important;
   border: none !important;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .main-footer {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.8rem;
 }
 .main-footer h5 {
