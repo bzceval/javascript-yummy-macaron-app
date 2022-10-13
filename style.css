@@ -78,15 +78,13 @@
   transform: scale(1) translateX(5px);
   transition: all 1s;
 }
-
 .macaron img {  
   transition: all 1.5s;
 }
 .macaron img:hover {
   transform: scale(1.1) translateY(5px);
   transition: all 1.5s;
-} 
-
+}  
 .card {
   text-align: center; 
   position: relative;
