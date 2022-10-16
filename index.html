@@ -1,445 +1,530 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Oswald:wght@400;500&display=swap"
+      rel="stylesheet" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Yummy</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Oswald:wght@400;500&display=swap"
-    rel="stylesheet">
-  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
-  <title>Yummy</title>
-</head>
+  <body>
+    <div class="hero">
+      <div class="hero-container">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand p-2" href="#"
+                ><img src="./images/yummy-logo.png" width="150" alt=""
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-lg-0">
+                  <li class="nav-item p-2">
+                    <a class="nav-link active" aria-current="page" href="#"
+                      >HOME</a
+                    >
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" href="#gift">GIFT</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" href="#yummy">YUMMY</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" href="#contact">CONTACT</a>
+                  </li>
+                </ul>
+                <div class="ms-auto">
+                  <i class="bi bi-instagram px-1"></i>
+                  <i class="bi bi-facebook px-1"></i>
+                  <i class="bi bi-twitter px-1"></i>
+                  <i class="bi bi-pinterest px-1"></i>
+                </div>
+              </div>
+            </div>
+          </nav>
 
-<body>
-  <div class="hero">
-    <div class="hero-container">
+          <div class="macaron">
+            <div class="macaron-yummy p-5">
+              <div class="container">
+                <h1>Sweet Heart Macaron</h1>
+                <p>
+                  From our authentically French recipes and premium French
+                  ingredients, all the way to the little details in design of
+                  our traditional pastry shop’s and mobile kiosk, our French
+                  bakery franchise model is a fresh breath of air in every new
+                  market it opens in.
+                </p>
+                <button class="order">Order It !</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gift my-5 py-5" id="gift">
       <div class="container">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand p-2" href="#"><img src="./images/yummy-logo.png" width="150" alt="" /></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto mb-lg-0">
-                <li class="nav-item p-2">
-                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        <div class="row mx-auto">
+          <div class="col-lg-5">
+            <img
+              src="./images/yummy-gift.jpg"
+              width="400"
+              height="600"
+              alt="Yummy Gift" />
+          </div>
+          <div class="col-lg-7">
+            <div class="gift-description text-center">
+              <h2>Darling Makes Her Loved One Happy With Yummy!</h2>
+              <p>
+                Some great placeholder content for the first featurette here.
+                Imagine some exciting prose here.
+              </p>
+              <button class="order">Buy a Gift !</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="macarons" id="yummy">
+      <div class="container">
+        <div class="row mb-2 pt-4">
+          <div class="col-lg-6">
+            <div
+              class="row macaron g-0 border rounded overflow-hidden flex-md-row mb-5 mt-3 shadow-lg h-md-300 position-relative">
+              <div
+                class="macaron-col col p-4 d-flex flex-column position-static">
+                <div class="product-price d-flex justify-content-end">
+                  <strong class="d-inline-block mb-2">25</strong
+                  ><span class="line-through text-muted">34.99</span>
+                </div>
+                <h3 class="mb-0">Cookies and Cream Macarons</h3>
+                <p>
+                  They are made with crushed Oreos in the macaron shells and a
+                  cookies & cream ganache filling in the center.
+                </p>
+
+                <div class="quantity-controller m-0 p-0">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button type="button" class="quantity-btn">
+                      <i class="bi bi-plus"></i>
+                    </button>
+                    <p class="quantity">0</p>
+                    <button type="button" class="quantity-btn">
+                      <i class="bi bi-dash"></i>
+                    </button>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button type="button" class="remove-product">Remove</button>
+                  </div>
+                </div>
+                <div class="price-container">
+                  <div class="price-end">
+                    <p href="#" class="product-line-price">0</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-auto">
+                <img
+                  src="./images/quantity-cookies.jpg"
+                  width="270"
+                  height="400"
+                  alt="raspery macoron" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="row macaron g-0 border rounded overflow-hidden flex-md-row mb-5 mt-3 shadow-lg h-md-300 position-relative">
+              <div
+                class="macaron-col col p-4 d-flex flex-column position-static">
+                <div class="product-price d-flex justify-content-end">
+                  <strong class="d-inline-block mb-2">25</strong
+                  ><span class="line-through text-muted">34.99</span>
+                </div>
+                <h3 class="mb-0">Rasperry Macaron</h3>
+                <p>
+                  These are filled with raspberry jam and raspberry buttercream
+                  and are the perfect way to end any meal!
+                </p>
+
+                <div class="quantity-controller m-0 p-0">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button type="button" class="quantity-btn">
+                      <i class="bi bi-plus"></i>
+                    </button>
+                    <p class="quantity">0</p>
+                    <button type="button" class="quantity-btn">
+                      <i class="bi bi-dash"></i>
+                    </button>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button type="button" class="remove-product">Remove</button>
+                  </div>
+                </div>
+                <div class="price-container">
+                  <div class="price-end">
+                    <p href="#" class="product-line-price">0</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-auto">
+                <img
+                  src="./images/quantity-raspery-macoron.jpg"
+                  width="270"
+                  height="400"
+                  alt="raspery macoron" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="row macaron g-0 border rounded overflow-hidden flex-md-row mb-5 mt-3 shadow-lg h-md-300 position-relative">
+              <div
+                class="macaron-col col p-4 d-flex flex-column position-static">
+                <div class="product-price d-flex justify-content-end">
+                  <strong class="d-inline-block mb-2">25</strong
+                  ><span class="line-through text-muted">34.99</span>
+                </div>
+                <h3 class="mb-0">Pistachio Macarons</h3>
+                <p>
+                  These delightful Pistachio Macarons are filled with pistachio
+                  buttercream.
+                </p>
+
+                <div class="quantity-controller m-0 p-0">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button type="button" class="quantity-btn">
+                      <i class="bi bi-plus"></i>
+                    </button>
+                    <p class="quantity">0</p>
+                    <button type="button" class="quantity-btn">
+                      <i class="bi bi-dash"></i>
+                    </button>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button type="button" class="remove-product">Remove</button>
+                  </div>
+                </div>
+                <div class="price-container">
+                  <div class="price-end">
+                    <p href="#" class="product-line-price">0</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-auto">
+                <img
+                  src="./images/quantity-pistachio.jpg"
+                  width="270"
+                  height="400"
+                  alt="raspery macoron" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="row macaron g-0 border rounded overflow-hidden flex-md-row mb-5 mt-3 shadow-lg h-md-300 position-relative">
+              <div
+                class="macaron-col col p-4 d-flex flex-column position-static">
+                <div class="product-price d-flex justify-content-end">
+                  <strong class="d-inline-block mb-2">25</strong
+                  ><span class="line-through text-muted">34.99</span>
+                </div>
+                <h3 class="mb-0">Chocolate Macaron</h3>
+                <p>
+                  These indulgent Chocolate Macarons are filled with dark
+                  chocolate ganache. Don't be intimidated by this classic French
+                  dessert.
+                </p>
+
+                <div class="quantity-controller m-0 p-0">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <button type="button" class="quantity-btn">
+                      <i class="bi bi-plus"></i>
+                    </button>
+                    <p class="quantity">0</p>
+                    <button type="button" class="quantity-btn">
+                      <i class="bi bi-dash"></i>
+                    </button>
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button type="button" class="remove-product">Remove</button>
+                  </div>
+                </div>
+                <div class="price-container">
+                  <div class="price-end">
+                    <p href="#" class="product-line-price">0</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-auto">
+                <img
+                  src="./images/quantity-chocolate.jpg"
+                  width="270"
+                  height="400"
+                  alt="raspery macoron" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="general-total pb-5">
+        <div class="general-total-row">
+          <div class="container">
+            <div
+              class="row rounded overflow-hidden flex-md-row shadow-lg position-relative">
+              <div class="buy-detail" id="cart-subtotal">
+                <p>Subtotal</p>
+                <p>0</p>
+              </div>
+              <div class="buy-detail" id="cart-tax">
+                <p>Tax (%18)</p>
+                <p>0</p>
+              </div>
+              <div class="buy-detail" id="cart-shipping">
+                <p>Shipping</p>
+                <p>0</p>
+              </div>
+              <div class="buy-detail" id="cart-total">
+                <p>Total</p>
+                <p>0</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="macarons-container">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-3 text-center">
+          <div class="col">
+            <div class="macaronn card mt-4 mb-4">
+              <img
+                src="./images/caramel-macaron.jpg"
+                class="card-img-top"
+                alt="caramel macaron" />
+              <div class="background"></div>
+              <div class="card-body">
+                <h2 class="name">Caramel Macaron</h2>
+                <p class="position">
+                  Instead of the typical buttercream or ganache filling, there’s
+                  a crunchy caramel candy layer in between the cocoa layers.
+                </p>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Go To Patisserie
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="macaronn card mt-4 mb-4">
+              <img
+                src="./images/böğürtlem.jpg"
+                class="card-img-top"
+                alt="caramel macaron" />
+              <div class="background"></div>
+              <div class="card-body">
+                <h2 class="name">Blackberry Macaron</h2>
+                <p class="position">
+                  This recipe uses a blackberry and dark chocolate ganache to
+                  fill the purple macaron shells. Typically, ganache is made
+                  with cream and chocolate.
+                </p>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Go To Patisserie
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="macaronn card mt-4 mb-4">
+              <img
+                src="./images/lemon-macaron.jpg"
+                class="card-img-top"
+                alt="caramel macaron" />
+              <div class="background"></div>
+              <div class="card-body">
+                <h2 class="name">Lemon Macaron</h2>
+                <p class="position">
+                  Lemon shaped macarons filled with homemade lemon curd and
+                  lemon buttercream.
+                </p>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Go To Patisserie
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="macaronn card mt-4 mb-4">
+              <img
+                src="./images/stawberry-macaron.jpg"
+                class="card-img-top"
+                alt="caramel macaron" />
+              <div class="background"></div>
+              <div class="card-body">
+                <h2 class="name">French Meringue Macaron</h2>
+                <p class="position">
+                  What is French Meringue? French meringue is made simply by
+                  beating egg whites with sugar.
+                </p>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Go To Patisserie
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="macaronn card mt-4 mb-4">
+              <img
+                src="./images/rasperry-macaron.jpg"
+                class="card-img-top"
+                alt="caramel macaron" />
+              <div class="background"></div>
+              <div class="card-body">
+                <h2 class="name">Lavender Coconut</h2>
+                <p class="position">
+                  This fabulous recipe for lavender and coconut macarons.
+                  They’re light and perfect with afternoon tea.
+                </p>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Go To Patisserie
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="macaronn card mt-4 mb-4">
+              <img
+                src="./images/Pumpkin-macaron.jpg"
+                class="card-img-top"
+                alt="caramel macaron" />
+              <div class="background"></div>
+              <div class="card-body">
+                <h2 class="name">Pumpkin Spice Macaron</h2>
+                <p class="position">
+                  These pumpkin spice bites will give you the burst of autumn
+                  flavor you’ll be looking for come September.
+                </p>
+                <button type="button" class="w-100 btn btn-lg btn-primary">
+                  Go To Patisserie
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="work-bg">
+      <div class="work-container">
+        <div class="work-yummy container">
+          <h3>Do you want to work with us?</h3>
+          <p>Add fun to the delicious macorons you make in the kitchen.</p>
+          <p>Add it tastes great.</p>
+          <button type="button" class="btn btn-success">Order It !</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-footer" id="contact">
+      <div class="container">
+        <div class="footer-follow-us text-center mt-5">
+          <img src="./images/right-arrow.png" width="70" alt="" />
+        </div>
+
+        <footer class="py-5">
+          <div class="row">
+            <div class="col-12 col-md-5 col-sm-12 px-3 mb-3">
+              <img src="./images/yummy-logo.png" width="150" alt="" />
+              <ul class="nav flex-column">
+                <p>
+                  A macaron or French macaron is a sweet meringue-based
+                  confection made with egg white, icing sugar, granulated sugar,
+                  almond meal and food colouring.
+                </p>
+              </ul>
+            </div>
+
+            <div class="col-12 col-md-4 col-sm-12 px-3 mb-3">
+              <h5>Contact Us</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <span>Address:</span> 321 E 22nd St New York / USA
                 </li>
-                <li class="nav-item p-2">
-                  <a class="nav-link" href="#">GIFT</a>
+                <li class="nav-item mb-2">
+                  <span>Email:</span> info@yummy.com
                 </li>
-                <li class="nav-item p-2">
-                  <a class="nav-link" href="#">YUMMY</a>
-                </li>
-                <li class="nav-item p-2">
-                  <a class="nav-link" href="#">CONTACT</a>
+                <li class="nav-item mb-2">
+                  <span>Phone:</span> +90 554 124 44 55
                 </li>
               </ul>
-              <div class="ms-auto">
-                <i class="bi bi-instagram px-1"></i>
-                <i class="bi bi-facebook px-1"></i>
-                <i class="bi bi-twitter px-1"></i>
-                <i class="bi bi-pinterest px-1"></i>
-              </div>
             </div>
-          </div>
-        </nav>
 
-        <div class="macaron">
-          <div class="macaron-yummy p-5">
-            <div class="container">
-              <h1>Sweet Heart Macaron</h1>
-              <p>
-                From our authentically French recipes and premium French
-                ingredients, all the way to the little details in design of
-                our traditional pastry shop’s and mobile kiosk, our French
-                bakery franchise model is a fresh breath of air in every new
-                market it opens in.
-              </p>
-              <button class="order">Order It !</button>
+            <div class="col-12 col-md-3 col-sm-12 px-3 mb-3">
+              <h5>Subscribe</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">Enter Your Email</li>
+                <li class="nav-item mb-2">
+                  <button type="button" class="btn btn-light">
+                    Send Information
+                  </button>
+                </li>
+              </ul>
             </div>
           </div>
-        </div>
+          <p class="text-center text-muted">
+            Developed by Busra Ceval Copyright &copy; 2022
+          </p>
+        </footer>
       </div>
     </div>
-  </div>
-
-  <div class="gift my-5 py-5">
-    <div class="container">
-      <div class="row mx-auto">
-        <div class="col-lg-5">
-          <img src="./images/yummy-gift.jpg" width="400" height="600" alt="Yummy Gift" />
-        </div>
-        <div class="col-lg-7">
-          <div class="gift-description text-center">
-            <h2>Darling Makes Her Loved One Happy With Yummy!</h2>
-            <p>
-              Some great placeholder content for the first featurette here.
-              Imagine some exciting prose here.
-            </p>
-            <button class="order">Buy a Gift !</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="macarons">
-    <div class="container">
-
-      <div class="row mb-2 pt-4">
-
-        <div class="col-lg-6">
-          <div
-            class="row macaron g-0 border rounded overflow-hidden flex-md-row mb-5 mt-3 shadow-lg h-md-300 position-relative">
-            <div class="macaron-col col p-4 d-flex flex-column position-static">
-              <div class="product-price d-flex justify-content-end">
-               <strong class="d-inline-block mb-2">25</strong><span class="line-through text-muted">34.99</span>
-              </div>
-              <h3 class="mb-0">Cookies and Cream Macarons</h3>
-              <p>They are made with crushed Oreos in the macaron shells and a cookies & cream
-                ganache filling in the center. </p>
-
-              <div class="quantity-controller m-0 p-0">
-                <div class="d-flex justify-content-center align-items-center">
-                  <button type="button" class="quantity-btn"><i class="bi bi-plus"></i></button>
-                  <p class="quantity">0</p>
-                  <button type="button" class="quantity-btn"><i class="bi bi-dash"></i></button>
-                </div>
-                <div class="d-grid gap-2">
-                  <button type="button" class="remove-product">Remove</button>
-                </div>
-
-              </div>
-              <div class="price-container">
-                <div class="price-end">
-                  <p href="#" class="product-line-price">0</p>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-auto">
-              <img src="./images/quantity-cookies.jpg" width="270" height="400" alt="raspery macoron">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div
-            class="row macaron g-0 border rounded overflow-hidden flex-md-row mb-5 mt-3 shadow-lg h-md-300 position-relative">
-            <div class="macaron-col col p-4 d-flex flex-column position-static">
-              <div class="product-price d-flex justify-content-end">
-                <strong class="d-inline-block mb-2">25</strong><span class="line-through text-muted">34.99</span>
-              </div>
-              <h3 class="mb-0">Rasperry Macaron</h3>
-              <p>These  are filled with raspberry jam and raspberry buttercream and are
-                the perfect way to end any meal!</p>
-
-              <div class="quantity-controller m-0 p-0">
-                <div class="d-flex justify-content-center align-items-center">
-                  <button type="button" class="quantity-btn"><i class="bi bi-plus"></i></button>
-                  <p class="quantity">0</p>
-                  <button type="button" class="quantity-btn"><i class="bi bi-dash"></i></button>
-                </div>
-                <div class="d-grid gap-2">
-                  <button type="button" class="remove-product">Remove</button>
-                </div>
-
-              </div>
-              <div class="price-container">
-                <div class="price-end">
-                  <p href="#" class="product-line-price">0</p>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-auto">
-              <img src="./images/quantity-raspery-macoron.jpg" width="270" height="400" alt="raspery macoron">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div
-            class="row macaron g-0 border rounded overflow-hidden flex-md-row mb-5 mt-3 shadow-lg h-md-300 position-relative">
-            <div class="macaron-col col p-4 d-flex flex-column position-static">
-              <div class="product-price d-flex justify-content-end">
-                <strong class="d-inline-block mb-2">25</strong><span class="line-through text-muted">34.99</span>
-              </div>
-              <h3 class="mb-0">Pistachio Macarons</h3>
-              <p>These delightful Pistachio Macarons are filled with pistachio buttercream.</p>
-
-              <div class="quantity-controller m-0 p-0">
-                <div class="d-flex justify-content-center align-items-center">
-                  <button type="button" class="quantity-btn"><i class="bi bi-plus"></i></button>
-                  <p class="quantity">0</p>
-                  <button type="button" class="quantity-btn"><i class="bi bi-dash"></i></button>
-                </div>
-                <div class="d-grid gap-2">
-                  <button type="button" class="remove-product">Remove</button>
-                </div>
-
-              </div>
-              <div class="price-container">
-                <div class="price-end">
-                  <p href="#" class="product-line-price">0</p>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-auto">
-              <img src="./images/quantity-pistachio.jpg" width="270" height="400" alt="raspery macoron">
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div
-            class="row macaron g-0 border rounded overflow-hidden flex-md-row mb-5 mt-3 shadow-lg h-md-300 position-relative">
-            <div class="macaron-col col p-4 d-flex flex-column position-static">
-              <div class="product-price d-flex justify-content-end">
-                <strong class="d-inline-block mb-2">25</strong><span class="line-through text-muted">34.99</span>
-              </div>
-              <h3 class="mb-0">Chocolate Macaron</h3>
-              <p>These indulgent Chocolate Macarons are filled with dark chocolate ganache. Don't be intimidated by this
-                classic French dessert.</p>
-
-              <div class="quantity-controller m-0 p-0">
-                <div class="d-flex justify-content-center align-items-center">
-                  <button type="button" class="quantity-btn"><i class="bi bi-plus"></i></button>
-                  <p class="quantity">0</p>
-                  <button type="button" class="quantity-btn"><i class="bi bi-dash"></i></button>
-                </div>
-                <div class="d-grid gap-2">
-                  <button type="button" class="remove-product">Remove</button>
-                </div>
-
-              </div>
-              <div class="price-container">
-                <div class="price-end">
-                  <p href="#" class="product-line-price">0</p>
-                </div>
-              </div>
-
-            </div>
-            <div class="col-auto">
-              <img src="./images/quantity-chocolate.jpg" width="270" height="400" alt="raspery macoron">
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    
-    <div class="general-total pb-5">
-      <div class="general-total-row">
-      <div class="container">
-          <div class="row rounded overflow-hidden flex-md-row shadow-lg position-relative">
-            <div class="buy-detail" id="cart-subtotal">
-              <p>Subtotal</p>
-              <p>0</p>
-            </div>
-            <div class="buy-detail" id="cart-tax">
-              <p>Tax (%18)</p>
-              <p>0</p>
-            </div>
-            <div class="buy-detail" id="cart-shipping">
-              <p>Shipping</p>
-              <p>0</p>
-            </div>
-            <div class="buy-detail" id="cart-total">
-              <p>Total</p>
-              <p>0</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <div class="macarons-container">
-    <div class="container">
-      <div class="row row-cols-1 row-cols-lg-3 text-center">
-
-        <div class="col">
-          <div class="macaronn card mt-4 mb-4">
-            <img src="./images/caramel-macaron.jpg" class="card-img-top" alt="caramel macaron" />
-            <div class="background"></div>
-            <div class="card-body">
-              <h2 class="name">Caramel Macaron</h2>
-              <p class="position">
-                Instead of the typical buttercream or ganache filling, there’s a crunchy caramel candy layer in between
-                the cocoa layers.
-              </p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Go To Patisserie</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <div class="macaronn card mt-4 mb-4">
-            <img src="./images/böğürtlem.jpg" class="card-img-top" alt="caramel macaron" />
-            <div class="background"></div>
-            <div class="card-body">
-              <h2 class="name">Blackberry Macaron</h2>
-              <p class="position">
-                This recipe uses a blackberry and dark chocolate ganache to fill the purple macaron shells. Typically,
-                ganache is made with cream and chocolate.
-              </p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Go To Patisserie</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <div class="macaronn card mt-4 mb-4">
-            <img src="./images/lemon-macaron.jpg" class="card-img-top" alt="caramel macaron" />
-            <div class="background"></div>
-            <div class="card-body">
-              <h2 class="name">Lemon Macaron</h2>
-              <p class="position">
-                Lemon shaped macarons filled with homemade lemon curd and lemon buttercream.
-              </p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Go To Patisserie</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <div class="macaronn card mt-4 mb-4">
-            <img src="./images/stawberry-macaron.jpg" class="card-img-top" alt="caramel macaron" />
-            <div class="background"></div>
-            <div class="card-body">
-              <h2 class="name">French Meringue Macaron</h2>
-              <p class="position">
-                What is French Meringue? French meringue is made simply by beating egg whites with sugar.
-              </p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Go To Patisserie</button>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col">
-          <div class="macaronn card mt-4 mb-4">
-            <img src="./images/rasperry-macaron.jpg" class="card-img-top" alt="caramel macaron" />
-            <div class="background"></div>
-            <div class="card-body">
-              <h2 class="name">Lavender Coconut</h2>
-              <p class="position">
-                This fabulous recipe for lavender and coconut macarons. They’re light and perfect with afternoon tea.
-              </p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Go To Patisserie</button>
-            </div>
-          </div>
-        </div>
-
-
-
-
-        <div class="col">
-          <div class="macaronn card mt-4 mb-4">
-            <img src="./images/Pumpkin-macaron.jpg" class="card-img-top" alt="caramel macaron" />
-            <div class="background"></div>
-            <div class="card-body">
-              <h2 class="name">Pumpkin Spice Macaron</h2>
-              <p class="position">
-                These pumpkin spice bites will give you the burst of autumn flavor you’ll be looking for come September.
-              </p>
-              <button type="button" class="w-100 btn btn-lg btn-primary">Go To Patisserie</button>
-            </div>
-          </div>
-        </div> 
-      </div>
-    </div>
-  </div>
-
-
-  <div class="work-bg">
-    <div class="work-container"> 
-          <div class="work-yummy container">
-            <h3>Do you want to work with us?</h3>
-            <p>Add fun to the delicious macorons you make in the kitchen.</p>
-            <p>Add it tastes great.</p>
-            <button type="button" class="btn btn-success">Order It !</button>
-          </div> 
-    </div>
-  </div>
-
-  <div class="main-footer">
-    <div class="container">
-      <div class="footer-follow-us text-center mt-5">
-        <img src="./images/right-arrow.png" width="70" alt="" />
-      </div>
-
-      <footer class="py-5">
-        <div class="row">
-          <div class="col-12 col-md-5 col-sm-12 px-3 mb-3">
-            <img src="./images/yummy-logo.png" width="150" alt="" />
-            <ul class="nav flex-column">
-              <p>
-                A macaron or French macaron is a sweet meringue-based
-                confection made with egg white, icing sugar, granulated sugar,
-                almond meal and food colouring.
-              </p>
-            </ul>
-          </div>
-
-          <div class="col-12 col-md-4 col-sm-12 px-3 mb-3">
-            <h5>Contact Us</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <span>Address:</span> 321 E 22nd St New York / USA
-              </li>
-              <li class="nav-item mb-2">
-                <span>Email:</span> info@yummy.com
-              </li>
-              <li class="nav-item mb-2">
-                <span>Phone:</span> +90 554 124 44 55
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-12 col-md-3 col-sm-12 px-3 mb-3">
-            <h5>Subscribe</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">Enter Your Email</li>
-              <li class="nav-item mb-2">
-                <button type="button" class="btn btn-light">
-                  Send Information
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <p class="text-center text-muted">
-          Developed by Busra Ceval Copyright &copy; 2022
-        </p>
-      </footer>
-    </div>
-  </div>
-
-  <script src="./app.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-    crossorigin="anonymous"></script>
-</body>
-
+    <button
+      onclick="topBtnFunc()"
+      id="upBtn"
+      class="upButton"
+      title="Go to top">
+      Top
+    </button>
+    <script src="./app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
