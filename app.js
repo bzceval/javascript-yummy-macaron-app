@@ -12,7 +12,7 @@ const macaronsDiv = document.querySelector(".macarons")
 
 macaronsDiv.addEventListener("click", (event) => {
     if (event.target.className == "bi bi-dash") {
-        if (event.target.parentElement.parentElement.querySelector(".quantity").innerText > 1) {
+        if (event.target.parentElement.parentElement.querySelector(".quantity").innerText > 0) {
             event.target.parentElement.parentElement.querySelector(".quantity").innerText--;
             calculateProductPrice(event.target);
             calculateCartPrice();
@@ -45,7 +45,7 @@ const calculateCartPrice = () => {
     const productsTotalPricesDiv = document.querySelectorAll(".product-line-price")
     const subtotal = [...productsTotalPricesDiv].reduce((acc, price) => acc + Number(price.innerText), 0);
     const taxPrice = subtotal * localStorage.getItem("taxRate");
-    const shippingPrice = parseFloat(subtotal > 0 && 300 ? 15 : 0)
+    const shippingPrice = parseFloat(subtotal > 0 && subtotal < 300 ? 15 : 0)
 
     document.querySelector('#cart-subtotal').lastElementChild.innerText = subtotal.toFixed(2);
     document.querySelector("#cart-tax p:nth-child(2)").innerText = taxPrice.toFixed(2);
