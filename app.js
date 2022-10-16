@@ -12,7 +12,7 @@ const macaronsDiv = document.querySelector(".macarons")
 
 macaronsDiv.addEventListener("click", (event) => {
     if (event.target.className == "bi bi-dash") {
-        if (event.target.parentElement.parentElement.querySelector(".quantity").innerText > 1) {
+        if (event.target.parentElement.parentElement.querySelector(".quantity").innerText > 0) {
             event.target.parentElement.parentElement.querySelector(".quantity").innerText--;
             calculateProductPrice(event.target);
             calculateCartPrice();
