@@ -68,6 +68,8 @@ const calculateCartPrice = () => {
   ).toFixed(2);
 };
 
+//???????? UP BUTTON ???????????//
+
 const upbutton = document.getElementById("upBtn");
 
 window.onscroll = function () {

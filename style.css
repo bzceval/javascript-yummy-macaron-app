@@ -300,6 +300,7 @@
   padding: 15px;
   border-radius: 50%;
   font-size: 18px;
+  transition: all 0.7s;
 }
 
 .upButton:hover {
