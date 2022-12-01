@@ -159,7 +159,7 @@
 .btn-primary {
   background-color: #ec348c !important;
   border: none !important;
-  transform: translateY(500px) !important;
+  transform: translateY(900px) !important;
   transition: all 0.6s !important;
 }
 
