@@ -43,5 +43,6 @@ At the end of the this project, students will be able to;
 
    ![macaron_checkout](https://user-images.githubusercontent.com/100320309/204967808-1159bf0e-6379-4aaa-a223-3d0fd19178ab.PNG)
 
-   
-   
+## Demo   
+   ![yummy](https://user-images.githubusercontent.com/100320309/205872604-d875eb46-e167-4ffd-afd3-b78d986641db.gif)
+
